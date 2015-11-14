@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ks_pem01.thesis_app.StartScreenFragment">
+
+    <TextView
+        android:layout_width="405dp"
+        android:layout_height="178dp"
+        android:text="Welcome."
+        android:textSize="21pt"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimary"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="185dp"
+        android:minHeight="543px"
+        android:minWidth="388pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/concept_two"
+        android:src="@drawable/liquid15_large"
+        android:layout_marginTop="100dp" />
+
+</FrameLayout>

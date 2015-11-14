@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_concept1"
+            android:icon="@drawable/icon_concept_one"
+            android:title="Concept 1" />
+        <item
+            android:id="@+id/nav_concept2"
+            android:icon="@drawable/icon_concept_two"
+            android:title="Concept 2" />
+        <item
+            android:id="@+id/nav_concept3"
+            android:icon="@drawable/icon_concept_three"
+            android:title="Concept 3" />
+<!--        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />-->
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_reset"
+                android:icon="@drawable/icon_reset"
+                android:title="Reset" />
+<!--            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>
